@@ -44,6 +44,6 @@ The system only simulates a streaming camera and receives only one video. Detect
 
 #### Contributors
 
-discord granado#9381
-discord iStreet#1201
-discord Volpe#4177
+Discord: granado#9381
+iStreet#1201
+Volpe#4177
