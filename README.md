@@ -1,47 +1,49 @@
 # Hackathon-Accenture-Computer-Vision
-## Detecção de Fluxo de Pessoas
-Este projeto tem como objetivo a detecção de fluxo de pessoas em um ambiente por meio de uma câmera em streaming, utilizando as bibliotecas YOLOv5 e OpenCV no Python.
+## People Flow Detection
 
-#### Funcionamento
-O sistema simula uma câmera em streaming por meio de uma máquina virtual, recebendo como entrada um único vídeo. Utilizando a biblioteca YOLOv5, o programa realiza a detecção de pessoas no vídeo e, em seguida, é feita a contagem do fluxo de entrada e saída em uma área pré-determinada. As informações são exibidas em uma tela em formato de gráfico simples e objetivo.
+This project aims to detect the flow of people in an environment using a streaming camera, using the YOLOv5 and OpenCV libraries in Python.
+Functioning
 
-#### Etapas de desenvolvimento
-- Definição do caso de uso
-- Pensamento na lógica computacional
-- Criação das funções e implementação no código
-- Elaboração dos slides para apresentação
+The system simulates a streaming camera using a virtual machine, taking a single video as input. Using the YOLOv5 library, the program detects people in the video, and then counts the flow of people in and out of a pre-determined area. The information is displayed on a simple and objective graph on the screen.
 
-#### Critérios de qualidade
-- Simplicidade: os resultados são exibidos em uma tela em formato de gráfico simples e objetivo.
-- Funcionalidade: detecção adequada dos objetos de interesse.
-- Usabilidade: disponibilização de displays mostrando a lotação em diversos locais do campus.
+#### Development Stages
 
-#### Trabalhos futuros
-O projeto pode ser utilizado em diversos locais, tais como:
+    Definition of use case
+    Logical thinking
+    Creation of functions and implementation in code
+    Preparation of presentation slides
 
-- Bancos, para saber quantas pessoas estão esperando na fila e um tempo estimado de quando será o próximo atendimento.
-- Transporte público, para saber se o ônibus ou um vagão está lotado.
-- Inúmeros lugares, pois o projeto pode ser utilizado em praticamente qualquer local que tenha tanto pouca quanto muita passagem de pessoas.
+#### Quality Criteria
 
-#### Limitações
-O sistema simula apenas uma câmera em streaming e recebe apenas um vídeo.
-A detecção pode falhar em situações com alta quantidade de objetos ou objetos muito próximos.
-A precisão da detecção pode ser afetada por ruídos no ambiente.
+    Simplicity: Results are displayed on a simple and objective graph on the screen.
+    Functionality: Proper detection of objects of interest.
+    Usability: Availability of displays showing the occupancy of various locations on campus.
 
-#### Tecnologias utilizadas
-- Python
-- YOLOv5
-- OpenCV
+#### Future Work
 
-#### Como executar o projeto
-- Instale o Python e as bibliotecas YOLOv5 e OpenCV.
-- Clone este repositório.
-- Execute o arquivo main.py.
+The project can be used in various locations such as:
 
-#### Contribuidores
+    Banks, to determine how many people are waiting in line and an estimated time of the next service.
+    Public transportation, to determine if a bus or train carriage is full.
+    Numerous other places, as the project can be used in almost any location with either low or high traffic of people.
+
+#### Limitations
+
+The system only simulates a streaming camera and receives only one video. Detection may fail in situations with a high number of objects or objects very close together. The accuracy of detection may be affected by noise in the environment.
+
+#### Technologies Used
+    Python
+    YOLOv5
+    OpenCV
+
+#### How to Run the Project
+
+    Install Python and the YOLOv5 and OpenCV libraries.
+    Clone this repository.
+    Run the main.py file.
+
+#### Contributors
+
 discord granado
 discord iStreet
 discord Volpe
-
-#### Licença
-Este projeto está licenciado sob a licença MIT - consulte o arquivo LICENSE.md para mais detalhes.
